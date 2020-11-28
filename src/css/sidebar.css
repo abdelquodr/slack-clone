@@ -1,4 +1,5 @@
 .sidebar {
+    flex: 0.3;
     color: white;
     background-color:  var(--slack-color);
     border-top: 1px solid #49274b;
@@ -7,8 +8,14 @@
 
 .sidebar__header{
     display: flex;
-    border-bottom: 1px soid #49274b;
+    border-bottom: 1px solid #49274b;
     padding: 13px;
+}
+
+.sidebar > hr {
+    margin-top: 10px;
+    border: 1px solid #49274b;
+    margin-bottom: 10px  ;
 }
 
 .sidebar__info{
